@@ -124,3 +124,18 @@ gulp.task('build', ['make', 'image-compress'], function() {});
       }))
       .pipe(gulp.dest(paths.dist.assets));
   });
+
+
+
+var watcher = gulp.watch([
+  paths.src.scss,
+  paths.src.assets,
+  paths.src.vendor,
+  paths.src.js,
+  paths.src.templates,
+  paths.src.partials
+]);
+
+watcher.on('change', function(event) {
+  console.log('File ' + event.path + ' was ' + event.type + ', recompiling site...');
+});
