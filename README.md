@@ -35,3 +35,6 @@ This will create a directory with all the files you need, as well as a very basi
   + `/scss`: this is where you keep your sass files and vendor css files
   + `/templates`: these are your main html files that use partials to help construct them
 - `/dist`: this folder gets erased and rebuilt with every change. Do not make changes here, you will lose them.
+
+#### Contact
+> Please feel free to contact me with any questions, or if you would like to help make this project better!
