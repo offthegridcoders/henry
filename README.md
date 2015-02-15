@@ -25,7 +25,7 @@ This will create a directory with all the files you need, as well as a very basi
 >This will build your files into a dist folder and then watches for changes. When a scss, js, html or images are changed or added, your site will be automatically recompiled. Just hit refresh on your browser to see the changes.
 
 `gulp build`
->This does the same as above, but also minifies images and doesn't watch
+>This does the same as above, but also minifies images and doesn't watch. Used for when you are ready to deploy your code.
 
 ##### Structure
 - `/src`: folder where you make changes
