@@ -17,6 +17,10 @@
 >This does the same as above, but also minifies images and doesn't watch
 
 #### How to start
+
+Create a new directory for your project by typing this command:
+`git clone https://github.com/theWickedWebDev/henry.git <name of your project>`
+
 > There are already some basic stuff in this build.  An index page as well as a subdirectory 'about'.  Small scss changes and one vendor library (normalize). These are here to get you started.
 
 ##### Structure
