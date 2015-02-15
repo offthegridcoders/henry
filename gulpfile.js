@@ -10,6 +10,7 @@ var watch = require('gulp-watch');
 var concatCss = require('gulp-concat-css');
 var imagemin = require('gulp-imagemin');
 var pngquant = require('imagemin-pngquant');
+var argv = require('yargs').argv;
 
 var paths = {
   src: {
@@ -30,7 +31,8 @@ var paths = {
   }
 };
 
-gulp.task('default', ['sass', 'make'], function() {
+gulp.task('default', ['sass', 'make'], function(options) {
+  console.log(options);
   return gulp.watch([
       paths.src.scss,
       paths.src.assets,
@@ -125,8 +127,6 @@ gulp.task('build', ['make', 'image-compress'], function() {});
       .pipe(gulp.dest(paths.dist.assets));
   });
 
-
-
 var watcher = gulp.watch([
   paths.src.scss,
   paths.src.assets,
@@ -138,4 +138,21 @@ var watcher = gulp.watch([
 
 watcher.on('change', function(event) {
   console.log('File ' + event.path + ' was ' + event.type + ', recompiling site...');
+});
+
+
+//
+// THIS ALLOWS YOU TO CREATE PAGES, DIRECTORYS, SASS FILES, ETC... THROUGH THE TERMINAL
+//
+// (still in progress)
+//
+
+gulp.task('new', function() {
+  if(argv.page){
+    console.log('You want to make a new page called: ' + argv.page)
+  };
+
+  if(argv.dir){
+    console.log('You want to make a new directory called: ' + argv.directory)
+  };
 });
