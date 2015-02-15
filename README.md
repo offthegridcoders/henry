@@ -12,7 +12,7 @@
 
 #### How to use
 `gulp`
->This will build your files into a dist folder and then watches for changes
+>This will build your files into a dist folder and then watches for changes. When a scss, js, html or images are changed or added, your site will be automatically recompiled.
 
 `gulp build`
 >This does the same as above, but also minifies images and doesn't watch
