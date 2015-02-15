@@ -18,8 +18,17 @@
 
 #### How to start
 
-Create a new directory for your project by typing this command:
+Create a new directory for your project by typing these commands:
+
 `git clone https://github.com/theWickedWebDev/henry.git <name of your project>`
+
+This will create a directory with all the files you need, as well as a very basic site already made.
+
+`cd <name of your project>`
+
+`<sudo>npm install`
+
+`gem install scss-lint`
 
 > There are already some basic stuff in this build.  An index page as well as a subdirectory 'about'.  Small scss changes and one vendor library (normalize). These are here to get you started.
 
