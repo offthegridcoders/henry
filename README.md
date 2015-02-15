@@ -4,13 +4,6 @@
 
 >Lints, Compiles Sass, Minifies CSS, JS and Images / And builds html files from partials and templates
 
-#### Commands
-`gulp`
->This will build your files into a dist folder and then watches for changes. When a scss, js, html or images are changed or added, your site will be automatically recompiled.
-
-`gulp build`
->This does the same as above, but also minifies images and doesn't watch
-
 #### How to start
 
 Create a new directory for your project by typing these commands:
@@ -26,6 +19,13 @@ This will create a directory with all the files you need, as well as a very basi
 `gem install scss-lint`
 
 > There are already some basic stuff in this build.  An index page as well as a subdirectory 'about'.  Small scss changes and one vendor library (normalize). These are here to get you started.
+
+#### Commands
+`gulp`
+>This will build your files into a dist folder and then watches for changes. When a scss, js, html or images are changed or added, your site will be automatically recompiled.
+
+`gulp build`
+>This does the same as above, but also minifies images and doesn't watch
 
 ##### Structure
 - `/src`: folder where you make changes
