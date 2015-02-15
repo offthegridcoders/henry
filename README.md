@@ -26,7 +26,7 @@ This will create a directory with all the files you need, as well as a very basi
 
 `cd <name of your project>`
 
-`<sudo>npm install`
+`<sudo> npm install`
 
 `gem install scss-lint`
 
