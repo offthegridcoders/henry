@@ -8,11 +8,11 @@
 
 Create a new directory for your project by typing these commands:
 
-`git clone https://github.com/theWickedWebDev/henry.git <name of your project>`
+`git clone https://github.com/theWickedWebDev/henry.git <name-of-your-project>`
 
 This will create a directory with all the files you need, as well as a very basic site already made.
 
-`cd <name of your project>`
+`cd <name-of-your-project>`
 
 `<sudo> npm install`
 
