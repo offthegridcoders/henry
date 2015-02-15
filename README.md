@@ -8,7 +8,6 @@
 
 #### Builds Static Website
 >Lints, Compiles Sass, Minifies CSS, JS and Images / And builds html files from partials and templates
-`gulp`
 
 #### Commands
 `gulp`
