@@ -11,6 +11,7 @@ var concatCss = require('gulp-concat-css');
 var imagemin = require('gulp-imagemin');
 var pngquant = require('imagemin-pngquant');
 var argv = require('yargs').argv;
+var file = require('gulp-file');
 
 var paths = {
   src: {
@@ -148,11 +149,23 @@ watcher.on('change', function(event) {
 //
 
 gulp.task('new', function() {
-  if(argv.page){
-    console.log('You want to make a new page called: ' + argv.page)
+  if(argv.template){
+    gulp.src('./henry/index.html')
+    .pipe(gulp.dest('./src/templates/' + argv.template + '/'));
+    console.log(argv.template + '/index.html - Template Created');
   };
 
   if(argv.dir){
-    console.log('You want to make a new directory called: ' + argv.directory)
+    gulp.src('./henry/index.html')
+    .pipe(gulp.dest('./src/' + argv.dir + '/'));
+    console.log(argv.dir + '/ - Directory Created');
   };
+
+  if(argv.scss){
+    return gulp.src('./henry/_index.scss')
+    .pipe(gulp.dest('./src/scss/' + argv.scss));
+    console.log('scss/' + argv.scss + '_index.scss - Scss file Created');
+  };
+
+  return;
 });
