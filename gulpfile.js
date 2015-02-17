@@ -32,8 +32,7 @@ var paths = {
   }
 };
 
-gulp.task('default', ['sass', 'make'], function(options) {
-  console.log(options);
+gulp.task('default', ['sass', 'make'], function() {
   return gulp.watch([
       paths.src.scss,
       paths.src.assets,
@@ -145,7 +144,7 @@ watcher.on('change', function(event) {
 //
 // THIS ALLOWS YOU TO CREATE PAGES, DIRECTORYS, SASS FILES, ETC... THROUGH THE TERMINAL
 //
-// (still in progress)
+// (still in progress) - but works!
 //
 
 gulp.task('new', function() {
