@@ -29,15 +29,12 @@ This will create a directory with all the files you need, as well as a very basi
 
 `gulp new --template <template name>`
 >This creates a directory inside templates folder with an index.html file inside
->example: gulp new --template about
 
 `gulp new --dir <dir name>`
 >This creates a directory inside /src folder 
->example: gulp new --dir assets/logos/
 
 `gulp new --scss <scss folder name>`
 >This creates a directory inside /scss folder with an _index.scss file inside
->example: gulp new --scss modules/navbar/
 
 ##### Structure
 - `/src`: folder where you make changes
