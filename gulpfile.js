@@ -151,19 +151,28 @@ watcher.on('change', function(event) {
 gulp.task('new', function() {
   if(argv.template){
     gulp.src('./henry/index.html')
-    .pipe(gulp.dest('./src/templates/' + argv.template + '/'));
+    .pipe(gulp.dest('./src/templates/' + argv.template + '/'))
+    .once('end', function () {
+      process.exit();
+    });
     console.log(argv.template + '/index.html - Template Created');
   };
 
   if(argv.dir){
     gulp.src('./henry/index.html')
-    .pipe(gulp.dest('./src/' + argv.dir + '/'));
+    .pipe(gulp.dest('./src/' + argv.dir + '/'))
+    .once('end', function () {
+      process.exit();
+    });
     console.log(argv.dir + '/ - Directory Created');
   };
 
   if(argv.scss){
     return gulp.src('./henry/_index.scss')
-    .pipe(gulp.dest('./src/scss/' + argv.scss));
+    .pipe(gulp.dest('./src/scss/' + argv.scss))
+    .once('end', function () {
+      process.exit();
+    });
     console.log('scss/' + argv.scss + '_index.scss - Scss file Created');
   };
 
