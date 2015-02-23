@@ -27,13 +27,13 @@ This will create a directory with all the files you need, as well as a very basi
 `gulp build`
 >This does the same as above, but also minifies images and doesn't watch. Used for when you are ready to deploy your code.
 
-`gulp new --template <template name>`
+`gulp new --template <template name>` (beta)
 >This creates a directory inside templates folder with an index.html file inside
 
-`gulp new --dir <dir name>`
+`gulp new --dir <dir name>` (beta)
 >This creates a directory inside /src folder 
 
-`gulp new --scss <scss folder name>`
+`gulp new --scss <scss folder name>` (beta)
 >This creates a directory inside /scss folder with an _index.scss file inside
 
 ##### Structure
