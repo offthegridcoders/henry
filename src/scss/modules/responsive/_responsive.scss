@@ -1,0 +1,410 @@
+@media screen and (max-width: 579px) { 
+  nav { 
+    display: none; 
+  } 
+  body { 
+    min-width: 0; 
+  } 
+  .mobile-nav { 
+    display: inline-block; 
+    padding: 0; 
+    position: absolute; 
+  
+    .logo { 
+      height: 60px; 
+      display: inline-block; 
+      margin-left: 15px; 
+    } 
+  } 
+  .mobile-nav span { 
+    text-align: center; 
+    font-size: 4.5vw; 
+    display: inline-block; 
+    margin: 0; 
+  } 
+
+  .mobile-nav ul { 
+    width: 100%; 
+  } 
+  .mobile-nav ul li {   
+    display: inline-block; 
+    position: relative; 
+    max-width: 100%; 
+    text-align: center; 
+    padding: 8px 0; 
+    margin: 20px 0 0; 
+    font-size: 7.5vw; 
+    float: right; 
+    color: #008080; 
+
+    ul { 
+      display: none; 
+
+      li { 
+        width: 100%; 
+        padding: 15px 0; 
+        height: auto; 
+        margin: 0; 
+        font-size: 0px; 
+      } 
+ 
+      li:hover { 
+        background-color: #ddd; 
+      } 
+    } 
+    i { 
+      margin-left: 20px; 
+      font-size: 7.5VW; 
+      color: #008080; 
+    } 
+  } 
+
+  .mobile-nav ul li:hover ul { 
+    display: inline-block; 
+  } 
+  header, 
+  .first-section { 
+    top:95px; 
+  } 
+  header { 
+    width: 100%; 
+    height: 100%; 
+    position: relative; 
+    padding: 14% 40px 0; 
+    background-position: 50% 0%; 
+    min-height: 300px; 
+    background-size: cover; 
+
+    h1 { 
+      font-size: 25px; 
+      text-align: center; 
+    } 
+    h2 { 
+      width: 100%; 
+      font-size: 16px; 
+      text-align: center; 
+    }
+    h3 {
+      text-align: center;
+    } 
+    p { 
+      font-size: 16px; 
+    } 
+    p:active .mobile-nav { 
+      display: inline-block; 
+    } 
+    .navicon { 
+      display: inline-block; 
+    } 
+    a { 
+      text-align: center; 
+    }
+  } 
+
+  .gradient-l, 
+  .first-section { 
+    height: 100%; 
+  } 
+  .simple-section {    
+    background-image: none; 
+    padding: 23px 0 0; 
+    text-align: center; 
+  } 
+  .content-wrapper {    
+    float: none!important; 
+    margin: 0 auto; 
+
+    p { 
+      height: 280px; 
+      margin: 0 20px; 
+    } 
+  } 
+  .ss-img-l .content-wrapper { 
+    width: 100%; 
+  } 
+
+  .testimonial-section .testimonial-wrapper { 
+    display: inline-block; 
+    width: 100%; 
+    margin: 0; 
+    padding: 5px 8%; 
+  } 
+  .branded-btn, 
+  .one-on-one-training-section { 
+    margin-bottom: 25px; 
+    width: 100%; 
+  } 
+  p { 
+    font-size: 5vw; 
+  } 
+  .ss-img-l .content-wrapper button { 
+    width: 280px; 
+  } 
+  .testimonial-section { 
+    padding: 40px 0; 
+    top: 100px; 
+
+    h1 { 
+      margin-bottom: 40px; 
+      font-size: 7.5vw; 
+    } 
+  } 
+
+  .footer-fix {    
+    top: 95px; 
+  } 
+
+  footer { 
+    position: relative; 
+
+    p { 
+      font-size: 9px; 
+    } 
+  } 
+
+  .about-events { 
+    top: 90px; 
+    position: relative; 
+  } 
+  .homepage-header {
+    min-height: 250px;
+    a {      
+      margin-left: -50%;
+      left: 50%;
+      position: relative;
+    }
+  }
+  .about-header {
+    min-height: 450px;
+  }
+
+  .promise-section .promise { 
+    padding: 50px 20px; 
+
+    h2 { 
+      font-size: 27px; 
+    } 
+  } 
+
+  .sponsors-list { 
+    padding: 50px 20px; 
+  } 
+
+  .events-header { 
+    padding: 20% 40px 0; 
+    a {      
+      margin-left: -50%;
+      left: 50%;
+      position: relative;
+    }
+  } 
+
+  .events-section, 
+  .our-sponsors { 
+    position: relative; 
+    top: 50px; 
+  } 
+  .events-section li { 
+    min-height: 260px; 
+    img { 
+      width: 125px; 
+    } 
+  } 
+  .about-section { 
+    text-align: center; 
+    ul { 
+      text-align: left; 
+    } 
+  } 
+  .sponsors-section .sponsors-list li { 
+    width: 115px; 
+  } 
+  .snowshoe-header { 
+    height: 500px; 
+    .gradient-l { 
+      background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIxMDAlIiB5Mj0iMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzAwMDAwMCIgc3RvcC1vcGFjaXR5PSIwLjY1Ii8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiMwMDAwMDAiIHN0b3Atb3BhY2l0eT0iMCIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+); 
+      background: -moz-linear-gradient(to right, rgba(70, 70, 70, 0.78) 100%, transparent 100%); /* FF3.6+ */ 
+      background: -webkit-gradient(linear, left top, right top, color-stop(0%,rgba(70, 70, 70, 0.78)), color-stop(100%,rgba(0,0,0,0))); /* Chrome,Safari4+ */ 
+      background: -webkit-linear-gradient(to right, rgba(70, 70, 70, 0.78) 100%, transparent 100%); /* Chrome10+,Safari5.1+ */ 
+      background: -o-linear-gradient(to right, rgba(70, 70, 70, 0.78) 100%, transparent 100%); /* Opera 11.10+ */ 
+      background: -ms-linear-gradient(to right, rgba(70, 70, 70, 0.78) 100%, transparent 100%); /* IE10+ */ 
+      background: linear-gradient(to right, rgba(70, 70, 70, 0.78) 100%, transparent 100%); /* W3C */ 
+      filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a6000000', endColorstr='#00000000',GradientType=1 ); /* IE6-8 */ 
+    } 
+    a {      
+      margin-left: -50%;
+      left: 50%;
+      position: relative;
+    }
+  }
+  .castle-header {
+    min-height: 350px;
+     a {      
+      margin-left: -50%;
+      left: 50%;
+      position: relative;
+    }
+  } 
+  .simple-section { 
+    height: 100%; 
+    .content-wrapper { 
+      margin: 0 auto; 
+    } 
+    p { 
+      height: 100% 
+    } 
+  } 
+  .header-section { 
+    padding: 50px 50px; 
+  } 
+ 
+} 
+
+@media screen and (min-width: 934px) and (max-width: 1100px) { 
+   header { 
+    top: 80px!important; 
+  } 
+
+  .about-events, 
+  .events-section, 
+  .our-sponsors, 
+  .snowshoe-header { 
+    position: relative; 
+    top: 50px; 
+  } 
+} 
+
+@media screen and (min-width: 800px) and (max-width: 1100px) { 
+  .about-events, 
+  .events-section, 
+  .our-sponsors, 
+  .snowshoe-header { 
+    position: relative; 
+    top: 50px; 
+  } 
+} 
+
+@media screen and (min-width: 580px) and (max-width: 1100px) { 
+
+  body { 
+    min-width: 0; 
+  } 
+  header, 
+  .simple-section { 
+    top:100px; 
+  } 
+  header { 
+    width: 100%; 
+    height: 385px; 
+    position: relative; 
+    padding: 10% 40px 0; 
+  } 
+
+  .gradient-l { 
+    height: 100%; 
+  } 
+   
+  .content-wrapper {    
+    float: none!important; 
+    margin: 0 auto; 
+
+    p { 
+      font-size: 18px; 
+    } 
+
+  } 
+
+  .ss-img-l .content-wrapper p { 
+    font-size: 14px; 
+  } 
+
+  .ss-img-r .content-wrapper p {
+    font-size: 14px;   
+  } 
+
+  .testimonial-section .testimonial-wrapper { 
+    display: inline-block; 
+    width: 30%; 
+    margin: 0; 
+    padding: 5px 3%; 
+
+    p { 
+      width: 100%; 
+    } 
+  } 
+  .branded-btn { 
+    margin-bottom: 25px; 
+  } 
+  p { 
+    font-size: 5vw; 
+    margin: 0 auto; 
+  } 
+  .ss-img-l .content-wrapper button { 
+    width: 300px; 
+  } 
+  .testimonial-section { 
+    padding: 60px 0; 
+    font-size: 7.5vw; 
+  } 
+  footer p { 
+    width: 500px; 
+    margin: 0 auto; 
+  } 
+
+  .about-events, 
+  .events-section, 
+  .our-sponsors, 
+  .snowshoe-header { 
+    position: relative; 
+    top: 50px; 
+  } 
+  .snowshoe-header,
+  .about-header { 
+    height: 500px; 
+    p { 
+      font-size: 3vw; 
+    } 
+  }
+  .castle-header {
+    height: 450px;
+  }
+  .post-race-beveridge .content-wrapper {
+    margin-left: 0;
+    width: 350px;
+  }
+  .inn-on-main .content-wrapper {
+    width: 350px;
+    margin-right: 0;
+  }
+  .citc-previous {
+    padding: 50px 0;
+    background-position: 150px 40%;
+    .content-wrapper {
+      width: 400px;
+      margin-right: 20px;
+
+    }
+  }
+  .usatf-cert {
+    background-position: 90% 60%;
+  }
+} 
+
+@media screen and (min-width: 580px) and (max-width: 840px) { 
+  .post-race-beveridge,
+  .inn-on-main {
+    padding: 50px 50px 25px;
+  }
+  .post-race-beveridge .content-wrapper,
+  .inn-on-main .content-wrapper {
+      width: 300px;
+  }
+  .usatf-cert,
+  .citc-previous {
+    background-image: none;
+    .content-wrapper {      
+      text-align: center;
+      margin: 0 auto;
+    }
+  }
+}

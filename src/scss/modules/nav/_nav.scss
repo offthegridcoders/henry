@@ -1,0 +1,57 @@
+nav {
+  background-color: #fff;
+  margin: 0 auto;
+  padding: 30px 100px 30px 50px;
+  z-index: 9000;
+  position: fixed;
+  width: 100%;
+  box-shadow: 0 2px 3px rgba(0, 0, 0, 0.12);
+
+  .logo {
+    height: 25px;
+    display: inline-block;
+    vertical-align: middle;
+  }
+
+  p {
+    color: $green;
+    display: inline-block;
+    font-size: 20px;
+    vertical-align: middle;
+  }
+
+  span {
+    vertical-align: middle;
+    margin-left: 19px;
+    color: #444;
+    font-style: italic;
+    font-size: 14px;
+    text-decoration: none;
+  }
+
+  ul {
+    float: right;
+  }
+
+  li {
+    display: inline-block;
+    margin-left: 30px;
+  }
+
+  a {
+    text-transform: uppercase;
+    color: $green;
+    font-size: 16px;
+    text-decoration: none;
+    display: inline-block;
+  }
+
+  a:hover {
+    color: $purple;
+    cursor: pointer;
+    text-decoration: underline;
+  }  
+}
+.mobile-nav {
+  display: none;
+}

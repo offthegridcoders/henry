@@ -1,0 +1,78 @@
+header {
+  width: 100%;
+  height: 500px;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: 50% 42%;
+  position: relative;
+  padding: 200px 100px;
+
+  h1,
+  h2,
+  button,
+  p {
+    position: relative;
+  }
+
+  a {
+    color: #fff;
+  }
+  
+  h1 {
+    font-size: 50px;
+    color: #fff;
+    margin-bottom: 10px;
+    font-weight: 400;
+  }
+
+  h2 {
+    font-size: 20px;
+    font-weight: 200;
+    width: 440px;
+    color: #fff;
+  }
+
+  h3 {
+    margin-top: 10px;
+    color: #fff;
+    font-style: italic;
+    font-weight: 200;
+  }
+
+  p {
+    color: #fff;
+    margin-bottom: 20px;
+  }
+
+  button {
+    margin-top: 20px;
+  }
+
+  .eastern-propane {
+    bottom: 30px;
+    position: absolute;
+    right: 30px;
+    max-width: 180px;
+  }
+}
+
+.homepage-header {
+  background-image: url("../assets/marathon_header.jpg");
+}
+
+.events-header {
+  background-image: url("../assets/events_general.jpg");
+}
+
+.castle-header {
+  background-image: url("../assets/castle-pic.jpg");
+  background-position: 50% 45%;
+}
+
+.snowshoe-header {
+  background-image: url("../assets/snowshoe_event.jpg");
+}
+
+.about-header {
+  background-image: url("../assets/about_robin.jpg");
+}

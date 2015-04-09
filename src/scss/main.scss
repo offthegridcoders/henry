@@ -1,2 +1,11 @@
-@import 'defaults/index';
-@import 'variables/index';
+@import 'defaults/_variables.scss';
+@import 'defaults/_defaults.scss';
+
+@import 'modules/nav/_nav.scss';
+@import 'modules/header/_header.scss';
+@import 'modules/sections/_sections.scss';
+@import 'modules/footer/_footer.scss';
+@import 'modules/responsive/_responsive.scss';
+
+@import 'helpers/_buttons.scss';
+@import 'helpers/_containers.scss';
