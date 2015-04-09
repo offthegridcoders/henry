@@ -1,10 +1,69 @@
 <!DOCTYPE html>
 <html>
-    @@include('../src/partials/_head.html', {"title": "Henry Template"})
+  @@include('../src/partials/_head.html', {"title": "Blvenyrbdy"})
   <body>
-   <h1>Hello World testasdfasasdfa
-   </h1>
-   <a href="contact">Click here for contact page</a>
-    @@include('../src/partials/_scripts.html')
+    <nav>
+      <img src="assets/logo.png" class="logo">
+      <p>BLVENYRBDY</p>
+      <span>R.E.M.M. Training – Passion for Fitness LLC</span>
+      <ul>
+        <li><a href="services">what i offer</a></li>
+        <li><a href="events">my events</a></li>
+        <li><a href="about">who i am</a></li>
+      </ul>
+    </nav>
+
+    <nav class="mobile-nav">
+        <ul>
+          <li class="navicon">BLVENYRBDY<span>R.E.M.M. Training – Passion for Fitness LLC</span><i class="fa fa-bars"></i></a>
+            <ul>
+              <li><a href="services">what i offer</a></li>
+              <li><a href="events">my events</a></li>
+              <li><a href="about">who i am</a></li>
+            </ul>
+          </li>
+        </ul>
+    </nav>
+
+    <header class="homepage-header">
+      <div class="gradient-l"></div>
+      <h1 class="animated pulse">Believe In Your Body!</h2>
+      <h2 class="animated pulse">Helping you get <strong>strong</strong> through the power of community and yourself</h2>
+      <a href="services">
+        <button class="branded-btn btn-white-transparent">reach your goal <i class="fa fa-arrow-right"></i></button>
+      </a>
+    </header>
+
+    <section class="simple-section ss-img-l first-section animated fadeInUpBig">
+      <div class="content-wrapper">
+        <h1>BLVENYRBDY</h1>
+        <p>Where fitness training is available for anyone of every ability to become strong in body, mind, and spirit. Providing a safe environment to help individuals grow to their greatest potential in the New Hampshire region and beyond.
+        <br>
+        <a href="services">
+          <button class="branded-btn btn-primary wow animated flipInY">learn more</button>
+        </a></p>
+      </div>
+    </section>
+
+    <section class="testimonial-section">
+      <h1>What my clients have to say...</h1>
+      <div class="testimonial-wrapper">
+        <div class="testimonial-person tp01 wow rollIn animated"></div>
+        <h5>Wesley</h5>
+        <p class="testimonial-quote">"When I am with Robin I don't feel judged, I don't feel watched. I feel alive! I feel encouraged! I believe! Robin always says, breath and believe. Well breathing is something i am forced to do, but believing is something I choose to do, because Robin, my girlfriend and the others in the class have helped me to rediscover that deep feeling we lose so easily. I have so much faith in myself because I go to class every week. I encourage anyone to join the class, it's a great exercise, both physically and mentally.</p>
+      </div>
+      <div class="testimonial-wrapper">
+        <div class="testimonial-person tp02 wow rollIn animated"></div>
+        <h5>Becky</h5>
+        <p class="testimonial-quote">In the past 5 years I started training and working out with Robin Allen-Burke has become my ROCK. I had to find someone and something to focus on during a rough time in my life. Robin became that person, we became best friends fast and I know it will last a long time. Please talk to her if you need anything to CHANGE in your life.. If you feel "I need something NEW and Exciting to happen to me" then she is the one to talk to. Not only will your body thank you but your mind will too! I do the "Circuit" with her once a week and join her at a race on the weekends. I feel so strong and happy with the choices I have made and I owe a lot of that to Robin and BLVENYRBDY!</p>
+      </div>
+      <div class="testimonial-wrapper">
+        <div class="testimonial-person tp03 wow rollIn animated"></div>
+        <h5>Diane</h5>
+        <p class="testimonial-quote">I have been training with Robin for 3 years and it’s amazing what she has helped me to accomplish.  Her enthusiasm and persistence have helped me realize my goals of weight loss and agility. I am very happy with the results and not only do I feel better about myself, but also look better which has inspired confidence. I will continue on my health and wellness journey with Robin as she always believes I have the ability to reach my ongoing goals through me believing in myself. I love her passion for fitness.</p>
+      </div>
+    </section>
+
+    @@include('../src/partials/_footer.html')
   </body>
 </html>

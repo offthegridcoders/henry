@@ -1,0 +1,42 @@
+.branded-btn {
+  background-color: transparent;
+  height: 40px;
+  padding: 0 23px;
+  font-size: 14px;
+  border: 0;
+  text-transform: uppercase;
+  outline: none;
+}
+
+.btn-primary {
+  border: solid 1px $green;
+  color: $green;
+}
+
+.btn-primary:hover {
+  color: #fff;
+  background-color: $green;
+  cursor: pointer;
+}
+
+.btn-primary-dark {
+  color: #fff;
+  background-color: $green;
+  cursor: pointer;
+}
+
+.btn-primary-dark:hover {
+  background-color: darken($green, 5%);
+}
+
+.btn-white-transparent {
+  color: #fff;
+  background-color: transparent;
+  cursor: pointer;
+  border: solid 1px #fff;
+}
+
+.btn-white-transparent:hover {
+  background-color: $green;
+  border-color: $green;
+}
